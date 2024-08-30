@@ -1,8 +1,24 @@
 {
-  "routes": [
-    {
-      "src": "/json/stats.json",
-      "dest": "https://ssr.rs/json/stats.json"
-    }
-  ]
+    "routes": [
+        {
+            "src": "/json/stats.json",
+            "dest": http://106.53.186.192:8080/json/stats.json"
+        },
+        {
+            "src": "/detail",
+            "dest": "http://106.53.186.192:8080/detail"
+        },
+        {
+            "src": "/map",
+            "dest": "http://106.53.186.192:8080/map"
+        },
+        {
+            "src": "/i",
+            "dest": "http://106.53.186.192:8080/i"
+        },
+        {
+            "src": "/report",
+            "dest": "http://106.53.186.192:8080/report"
+        }
+    ]
 }

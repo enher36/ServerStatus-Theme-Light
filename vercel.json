@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/json/stats.json",
-            "dest": http://106.53.186.192:8080/json/stats.json"
+            "dest": "http://106.53.186.192:8080/json/stats.json"
         },
         {
             "src": "/detail",
